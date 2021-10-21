@@ -344,15 +344,16 @@ int waitpid(int pid, int *status, int options){
         p->name[0] = 0;
         p->killed = 0;
         p->state = UNUSED;
+        p->status = 0;
         release(&ptable.lock);
         return newpid;
       }
-      /*else if(options == 1){
+      else if(options == 1){
         if(p->status < 0)
           return -1;
         release(&ptable.lock);
         return p->status;
-      }*/
+      }
     }
 
     // No point waiting if we don't have any children.
