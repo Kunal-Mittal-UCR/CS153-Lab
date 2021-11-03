@@ -90,9 +90,13 @@ sys_uptime(void)
   return xticks;
 }
 int 
-sys_setpriority(void){
+sys_set_prior(void){
   int change;
   if(argint(0, &change) < 0)
     return -1;
-  return setpriority(change);
+  return set_prior(change);
+}
+int
+sys_getpriority(void){
+  return myproc() -> pVal;
 }

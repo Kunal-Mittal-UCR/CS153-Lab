@@ -335,7 +335,7 @@ scheduler(void)
     sti();
 
     // Loop over process table looking for process to run.
-    minP = 32;
+    minP = 31;
     acquire(&ptable.lock);
     /*for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
       if(p->state != RUNNABLE)
@@ -354,13 +354,6 @@ scheduler(void)
       // Process is done running for now.
       // It should have changed its p->state before coming back.
       c->proc = 0;*/
-
-      for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-        if(p->state != RUNNABLE)
-          continue;
-        if(p->pVal > 0)
-          p->pVal--;
-      }
       
       for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
         if(p->pVal < minP && p->state == RUNNABLE){
@@ -368,28 +361,24 @@ scheduler(void)
           minTemp = p;
         }
       }
-
+      c->proc = minTemp;
+      switchuvm(minTemp);
+      minTemp->state = RUNNING;
+      if(minTemp->pVal < 30)
+          minTemp->pVal+=2;
+        
+      swtch(&(c->scheduler), minTemp->context);
+      switchkvm();
+      // Process is done running for now.
+      // It should have changed its p->state before coming back.
+      //cprintf("\n Process with pid %d has priority %d after waiting \n", minTemp->pid, minTemp->pVal);
+      c->proc = 0;
       for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
         if(p->state != RUNNABLE)
           continue;
-        if(minTemp->state != RUNNABLE)
-          continue;
-          
-
-        c->proc = minTemp;
-        switchuvm(minTemp);
-        minTemp->state = RUNNING;
-        minTemp->pVal++;
-
-        swtch(&(c->scheduler), minTemp->context);
-        switchkvm();
-
-
-        // Process is done running for now.
-        // It should have changed its p->state before coming back.
-        //cprintf("\n Process with pid %d has priority %d after waiting \n", minTemp->pid, minTemp->pVal);
-        c->proc = 0;
-    }
+        if(p->pVal > 0)
+            p->pVal--;
+      }
     release(&ptable.lock);
 
   }
@@ -572,9 +561,13 @@ procdump(void)
     cprintf("\n");
   }
 }
-int setpriority(int prior_lvl){
+int set_prior(int prior_lvl){
+  acquire(&ptable.lock);
   struct proc *x = myproc();
   if(prior_lvl > -1 && prior_lvl < 32)
     x->pVal = prior_lvl;
+  x->state = RUNNABLE;
+  sched();
+  release(&ptable.lock);
   return prior_lvl;
 }

@@ -21,18 +21,18 @@ int PScheduler(void){
     printf(1, "\n  Step 2: Assuming that the priorities range between range between0 to 31\n");
     printf(1, "\n  Step 2: 0 is the highest priority. All processes have a default priority of 10\n");
     printf(1, "\n  Step 2: The parent processes will switch to priority 0\n");
-    setpriority(0);
+    set_prior(0);
     for (i = 0; i <  3; i++) {
         pid = fork();
         if (pid > 0 ) {
             continue;
         }
         else if ( pid == 0) {
-            setpriority(30-10*i);
+            set_prior(30-10*i);
             for (j=0;j<50000;j++) {
                 for(k=0;k<1000;k++) {
                     asm("nop"); }}
-        printf(1, "\n child# %d with priority %d has finished! \n",getpid(),30-10*i);
+        printf(1, "\n child# %d with priority %d has finished! With an ending priority of %d \n",getpid(),30-10*i, getpriority());
         exit();
         }
         else {
