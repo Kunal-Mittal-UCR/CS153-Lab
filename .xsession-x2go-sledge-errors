@@ -1,0 +1,23 @@
+XSession-x2go: X session started for kmitt006 at Fri Dec  4 13:51:15 PST 2020
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+xfce4-session-Message: 13:51:15.124: SSH authentication agent is already running
+
+(xfce4-session:16564): xfce4-session-WARNING **: 13:51:15.154: xfsm_manager_load_session: Something wrong with /home/csgrads/kmitt006/.cache/sessions/xfce4-session-sledge:187, Does it exist? Permissions issue?
+
+(xfwm4:16644): xfwm4-WARNING **: 13:51:15.230: The display does not support the XComposite extension.
+
+(xfwm4:16644): xfwm4-WARNING **: 13:51:15.230: Compositing manager disabled.
+
+(xfsettingsd:16659): xfsettingsd-CRITICAL **: 13:51:15.243: Your XI is too old (1.3) version 1.4 is required.
+
+(xfsettingsd:16659): xfsettingsd-CRITICAL **: 13:51:15.245: Failed to change the keyboard repeat
+
+(xfwm4:16644): xfwm4-WARNING **: 13:51:15.316: Error opening /dev/dri/card0: Permission denied
+
+(xfce4-session:16564): GLib-GObject-CRITICAL **: 15:08:59.245: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(Thunar:16650): GVFS-RemoteVolumeMonitor-WARNING **: 15:08:59.265: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+xfce-polkit: Fatal IO error 11 (Resource temporarily unavailable) on X server :187.0.

@@ -1,0 +1,430 @@
+log file opened
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:649] xfsm_startup_autostart_xdg(): only show in XFCE set, launching
+TRACE[xfsm-startup.c:712] xfsm_startup_autostart_xdg(): Autostart: running command "/usr/libexec/xfce-polkit"
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:649] xfsm_startup_autostart_xdg(): only show in XFCE set, launching
+TRACE[xfsm-startup.c:700] xfsm_startup_autostart_xdg(): TryExec set and xfsm_check_valid_exec failed, skipping
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:712] xfsm_startup_autostart_xdg(): Autostart: running command "xfce4-power-manager"
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:681] xfsm_startup_autostart_xdg(): start_at_spi (a11y support), skipping
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:649] xfsm_startup_autostart_xdg(): only show in XFCE set, launching
+TRACE[xfsm-startup.c:712] xfsm_startup_autostart_xdg(): Autostart: running command "xfsettingsd"
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-manager.c:823] xfsm_manager_signal_startup_done(): Manager finished startup, entering IDLE mode now
+
+TRACE[xfsm-manager.c:303] xfsm_manager_set_state(): 
+state is now XFSM_MANAGER_IDLE
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 14, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 14, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-panel)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 26639)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/csgrads/kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 25)
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 15, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 15, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 272a731c7-544d-4145-91f9-08e1ba2b7546, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfsettingsd)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 26647)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/csgrads/kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 25)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /etc/xdg/autostart/xfsettingsd.desktop)
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 16, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 16, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfdesktop)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 26643)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/csgrads/kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 35)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2730877f0-c1c1-4da6-b2df-16809ec1087d, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 17, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 17, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 18, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 18, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-power-manager)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 26649)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /etc/xdg/autostart/xfce4-power-manager.desktop)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfwm4)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 26635)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/csgrads/kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 15)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 213e5a00f-d343-4905-919f-bf5338df9bcd, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 208472bf7-c79f-4192-8c7d-7083959c862f, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 257b0366a-b96b-4a4d-8985-cc3011912d50, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 19, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 35020)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/csgrads/kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 25a77b5b2-2fa1-449c-afa7-3b514732c82c, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2fff46f5d-606a-450f-9b25-eb7733761419, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2fff46f5d-606a-450f-9b25-eb7733761419 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2645f114d-ffff-4091-b33f-694e43fd9c19, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2645f114d-ffff-4091-b33f-694e43fd9c19 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 19, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 42724)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/csgrads/kmitt006)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2872d3028-2ce7-484b-9522-39f926db48d8, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2189dbd31-5e4a-403c-9ea7-16860293d48d, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2189dbd31-5e4a-403c-9ea7-16860293d48d exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2bb434766-484c-494f-b9a5-26fc1fbf4a96, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2bb434766-484c-494f-b9a5-26fc1fbf4a96 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2671c600f-2a34-4787-9222-c099936e06e1, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2671c600f-2a34-4787-9222-c099936e06e1 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 230a36deb-2c79-4f04-92dc-0e9ba4a20626, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 230a36deb-2c79-4f04-92dc-0e9ba4a20626 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 21d5d8979-bd1d-4cd2-89aa-042ccad1f3ec, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 21d5d8979-bd1d-4cd2-89aa-042ccad1f3ec exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2ae0a3bff-8a47-4b51-b528-d87ddb23d58f, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2ae0a3bff-8a47-4b51-b528-d87ddb23d58f exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 29fd532d9-e311-4370-8cc4-517ce0a8a2d8, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 29fd532d9-e311-4370-8cc4-517ce0a8a2d8 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 25c237098-f58d-44c8-b6a3-2fcf70584c71, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 25c237098-f58d-44c8-b6a3-2fcf70584c71 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2ab4384d2-e460-41ef-bed3-f9892d2e3051, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2ab4384d2-e460-41ef-bed3-f9892d2e3051 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 296b9779e-1a4f-4039-aa0c-2cb01dc32712, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 296b9779e-1a4f-4039-aa0c-2cb01dc32712 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 245006efa-198d-4293-a470-6f86fae591db, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 245006efa-198d-4293-a470-6f86fae591db exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2350b36c8-a057-4a5a-b2dd-f29ee8b0dc5e, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2350b36c8-a057-4a5a-b2dd-f29ee8b0dc5e exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 28342e1ec-1af3-4113-8175-f222d2fc3485, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 28342e1ec-1af3-4113-8175-f222d2fc3485 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 20419f873-2ab3-4fba-a29c-6bd5415385e5, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 20419f873-2ab3-4fba-a29c-6bd5415385e5 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2c7bb9458-8bbb-4317-abf5-10a6cbef360c, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2c7bb9458-8bbb-4317-abf5-10a6cbef360c exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 25d96838e-f873-42c4-b6d4-f692b6dd26af, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 25d96838e-f873-42c4-b6d4-f692b6dd26af exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2a092b1c8-a63a-4f00-a6f1-68b09c4e0c31, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2a092b1c8-a63a-4f00-a6f1-68b09c4e0c31 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2e9acef5b-f2fb-41f4-bf6c-c14ebda734c7, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[ice-layer.c:99] ice_error_handler(): ICE connection fd = 20, ICE I/O error on connection
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2e9acef5b-f2fb-41f4-bf6c-c14ebda734c7 exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, simpl)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, kmitt006)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 29e272996-8cb3-4ebc-a395-6580332f2477, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 29e272996-8cb3-4ebc-a395-6580332f2477 exited, removing from session.
+TRACE[xfsm-manager.c:1130] xfsm_manager_save_yourself_global(): enteringTRACE[xfsm-manager.c:303] xfsm_manager_set_state(): 
+state is now XFSM_MANAGER_SHUTDOWN
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 272a731c7-544d-4145-91f9-08e1ba2b7546, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 208472bf7-c79f-4192-8c7d-7083959c862f, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 257b0366a-b96b-4a4d-8985-cc3011912d50, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:232] sm_interact_request(): Client Id = 213e5a00f-d343-4905-919f-bf5338df9bcd, received INTERACT REQUEST [Dialog type = Normal]
+
+TRACE[sm-layer.c:246] sm_interact_done(): Client Id = 213e5a00f-d343-4905-919f-bf5338df9bcd, received INTERACT DONE [Cancel shutdown = False]
+
+TRACE[sm-layer.c:290] sm_save_yourself_phase2_request(): Client Id = 213e5a00f-d343-4905-919f-bf5338df9bcd, received SAVE YOURSELF PHASE2 REQUEST
+
+TRACE[xfsm-manager.c:1271] xfsm_manager_save_yourself_phase2(): enteringTRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2730877f0-c1c1-4da6-b2df-16809ec1087d, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:1554] xfsm_manager_maybe_enter_phase2(): Client Id = 213e5a00f-d343-4905-919f-bf5338df9bcd enters SAVE YOURSELF PHASE2.
+
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (DiscardCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 213e5a00f-d343-4905-919f-bf5338df9bcd, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:1573] xfsm_manager_complete_saveyourself(): Manager finished SAVE YOURSELF, session data will be stored now.
+
+TRACE[xfsm-manager.c:1459] xfsm_manager_perform_shutdown(): enteringTRACE[xfsm-manager.c:303] xfsm_manager_set_state(): 
+state is now XFSM_MANAGER_SHUTDOWNPHASE2
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)

@@ -1,0 +1,18 @@
+[2021-11-03 16:35:12.104] [exthost] [info] extension host started
+[2021-11-03 16:35:12.153] [exthost] [info] Lock '/home/csgrads/kmitt006/.vscode-server/data/User/workspaceStorage/9f09eef2b6861cec98ac4706f2842995/vscode.lock': Lock acquired.
+[2021-11-03 16:35:12.208] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-03 16:35:12.208] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/debug-auto-launch/dist/extension
+[2021-11-03 16:35:12.218] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-03 16:35:12.218] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/git/dist/main
+[2021-11-03 16:35:13.880] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-03 16:35:13.881] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/github/dist/extension.js
+[2021-11-03 16:35:14.045] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-03 16:35:14.045] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-03 16:35:14.066] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-03 16:35:14.066] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-03 16:35:14.071] [exthost] [info] eager extensions activated
+[2021-11-03 16:35:14.328] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-11-03 16:35:14.328] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-03 19:59:10.560] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2021-11-03 19:59:10.561] [exthost] [info] Lock '/home/csgrads/kmitt006/.vscode-server/data/User/workspaceStorage/9f09eef2b6861cec98ac4706f2842995/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-11-03 19:59:11.579] [exthost] [info] exiting with code 0

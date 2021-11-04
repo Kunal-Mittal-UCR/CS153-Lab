@@ -1,0 +1,34 @@
+[CLIENT] 0x1c00006
+  [CLIENT_LEADER] 0x1c00001
+  [RES_NAME] geany
+  [RES_CLASS] Geany
+  [WM_NAME] lab6_ex2.asm - /home/csgrads/kmitt006/Desktop/cs061/lab6 - Geany
+  [WM_COMMAND] (1) "geany"
+  [GEOMETRY] (0,60,1440,695)
+  [GEOMETRY-MAXIMIZED] (485,79,871,673)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x300
+[CLIENT] 0x400003
+  [CLIENT_LEADER] 0x400001
+  [WINDOW_ROLE] Thunar-1604642452-770071288
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab6 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (3,60,640,480)
+  [GEOMETRY-MAXIMIZED] (3,60,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1e00006
+  [CLIENT_LEADER] 0x1e00001
+  [RES_NAME] evince
+  [RES_CLASS] Evince
+  [WM_NAME] lab6_specs.pdf
+  [WM_COMMAND] (1) "evince"
+  [GEOMETRY] (0,31,1450,734)
+  [GEOMETRY-MAXIMIZED] (0,31,1450,734)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

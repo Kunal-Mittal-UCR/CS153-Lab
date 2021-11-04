@@ -1,0 +1,28 @@
+[2021-11-03 21:12:56.769] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-11-03 21:12:56.770] [remoteagent] [info] Extension host agent started.
+[2021-11-03 21:12:56.908] [remoteagent] [info] [127.0.0.1][624276a0][ManagementConnection] New connection established.
+[2021-11-03 21:12:56.911] [remoteagent] [info] [127.0.0.1][6dbba903][ExtensionHostConnection] New connection established.
+[2021-11-03 21:12:56.917] [remoteagent] [info] [127.0.0.1][6dbba903][ExtensionHostConnection] <5998> Launched Extension Host Process.
+[2021-11-03 21:13:54.933] [remoteagent] [info] [127.0.0.1][624276a0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-11-03 21:13:55.961] [remoteagent] [info] [127.0.0.1][6dbba903][ExtensionHostConnection] <5998> Extension Host Process exited with code: 0, signal: null.
+[2021-11-03 21:13:55.962] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-11-03 21:13:56.686] [remoteagent] [info] [127.0.0.1][f81283ca][ManagementConnection] New connection established.
+[2021-11-03 21:13:56.829] [remoteagent] [info] [127.0.0.1][3d5b22c9][ExtensionHostConnection] New connection established.
+[2021-11-03 21:13:56.837] [remoteagent] [info] [127.0.0.1][3d5b22c9][ExtensionHostConnection] <7973> Launched Extension Host Process.
+[2021-11-03 21:18:55.963] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-11-03 21:20:57.580] [remoteagent] [info] [127.0.0.1][f81283ca][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-11-03 21:20:58.612] [remoteagent] [info] [127.0.0.1][3d5b22c9][ExtensionHostConnection] <7973> Extension Host Process exited with code: 0, signal: null.
+[2021-11-03 21:20:58.612] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-11-03 21:20:59.173] [remoteagent] [info] [127.0.0.1][c54ee5b0][ManagementConnection] New connection established.
+[2021-11-03 21:20:59.174] [remoteagent] [info] [127.0.0.1][927e9048][ExtensionHostConnection] New connection established.
+[2021-11-03 21:20:59.183] [remoteagent] [info] [127.0.0.1][927e9048][ExtensionHostConnection] <31727> Launched Extension Host Process.
+[2021-11-03 21:25:58.455] [remoteagent] [info] New EH opened, aborting shutdown

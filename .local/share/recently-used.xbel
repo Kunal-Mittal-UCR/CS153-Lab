@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab4/lab4_specs.pdf" added="2020-10-19T23:53:47Z" modified="2020-11-03T17:48:10Z" visited="2020-10-19T23:53:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-03T17:48:10Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab4/lab4_ex4.asm" added="2020-10-20T00:30:21Z" modified="2020-11-03T17:45:44Z" visited="2020-10-20T00:30:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-10-20T00:30:21Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-11-03T17:45:44Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab5/lab5_specs.pdf" added="2020-10-27T17:46:43Z" modified="2020-11-03T18:10:11Z" visited="2020-10-27T17:46:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-03T18:10:11Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab5/assignment3.asm" added="2020-10-27T18:03:36Z" modified="2020-11-03T17:44:42Z" visited="2020-10-27T18:03:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-11-03T17:44:42Z" count="3"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-10-27T18:03:42Z" count="1"/>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-10-27T19:25:59Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab5/lab5_ex3.asm" added="2020-10-27T19:11:13Z" modified="2020-11-06T17:33:33Z" visited="2020-10-27T19:11:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-10-27T19:11:13Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-11-06T17:33:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab5/Programming%20assignment%203.pdf" added="2020-10-27T19:12:08Z" modified="2020-11-06T22:26:09Z" visited="2020-10-27T19:12:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-06T22:26:09Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Downloads/lab6.zip" added="2020-11-03T17:42:22Z" modified="2020-11-03T17:42:22Z" visited="2020-11-03T17:42:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-11-03T17:42:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab6/lab6_specs.pdf" added="2020-11-03T17:43:34Z" modified="2020-11-06T22:25:21Z" visited="2020-11-03T17:43:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-06T22:25:21Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab6/lab6_ex1.asm" added="2020-11-03T17:43:42Z" modified="2020-11-03T17:44:59Z" visited="2020-11-03T17:43:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-03T17:43:42Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-11-03T17:44:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab6/lab6_ex2.asm" added="2020-11-03T18:19:45Z" modified="2020-11-10T00:56:18Z" visited="2020-11-03T18:19:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-03T18:19:45Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-11-10T00:56:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab6/lab6_ex3.asm" added="2020-11-03T18:56:25Z" modified="2020-11-03T18:56:25Z" visited="2020-11-03T18:56:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-03T18:56:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Downloads/assn4.zip" added="2020-11-09T00:23:51Z" modified="2020-11-09T00:23:51Z" visited="2020-11-09T00:23:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-11-09T00:23:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab6/Programming%20Assignment%204.pdf" added="2020-11-09T00:24:46Z" modified="2020-11-09T01:42:28Z" visited="2020-11-09T00:24:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-09T00:24:46Z" count="1"/>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-11-09T01:42:28Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab6/assignment4.asm" added="2020-11-09T00:24:52Z" modified="2020-11-09T01:44:38Z" visited="2020-11-09T00:24:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-09T00:24:52Z" count="1"/>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-11-09T01:44:38Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab1/lab1_ex1.asm" added="2020-11-09T01:11:54Z" modified="2020-11-09T01:11:54Z" visited="2020-11-09T01:11:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-09T01:11:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Downloads/lab7.zip" added="2020-11-10T00:35:53Z" modified="2020-11-10T00:35:53Z" visited="2020-11-10T00:35:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-11-10T00:35:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab7/lab7_specs.pdf" added="2020-11-10T00:36:15Z" modified="2020-11-10T00:36:15Z" visited="2020-11-10T00:36:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-10T00:36:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab7/lab7.asm" added="2020-11-10T00:36:19Z" modified="2020-11-10T00:36:19Z" visited="2020-11-10T00:36:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-10T00:36:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Downloads/lab8.zip" added="2020-11-16T19:12:57Z" modified="2020-11-16T19:12:57Z" visited="2020-11-16T19:12:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-11-16T19:12:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab8/lab8_specs.pdf" added="2020-11-16T19:13:10Z" modified="2020-11-26T21:11:07Z" visited="2020-11-16T19:13:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-26T21:11:07Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab8/lab8_ex1.asm" added="2020-11-16T19:14:54Z" modified="2020-11-16T19:15:03Z" visited="2020-11-16T19:14:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-11-16T19:14:54Z" count="1"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-16T19:15:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab8/lab8_ex2.asm" added="2020-11-16T20:05:40Z" modified="2020-11-16T20:05:40Z" visited="2020-11-16T20:05:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-16T20:05:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Downloads/assn5.zip" added="2020-11-26T21:10:48Z" modified="2020-11-26T21:10:48Z" visited="2020-11-26T21:10:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-11-26T21:10:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab8/Programming%20Assignment%205.pdf" added="2020-11-26T21:11:24Z" modified="2020-11-27T20:03:03Z" visited="2020-11-26T21:11:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-27T20:03:03Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab8/assignment5.asm" added="2020-11-26T21:11:28Z" modified="2020-11-27T21:31:22Z" visited="2020-11-26T21:11:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-26T21:11:28Z" count="1"/>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-11-27T21:31:22Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Downloads/lab9.zip" added="2020-11-30T20:09:33Z" modified="2020-11-30T20:09:33Z" visited="2020-11-30T20:09:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-11-30T20:09:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab9/lab9_ex1-2.asm" added="2020-11-30T20:09:48Z" modified="2020-11-30T20:09:48Z" visited="2020-11-30T20:09:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-30T20:09:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab9/lab9_specs.pdf" added="2020-11-30T20:10:18Z" modified="2020-11-30T22:49:42Z" visited="2020-11-30T20:10:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2020-11-30T22:49:42Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab9/lab9_ex3.asm" added="2020-11-30T22:49:40Z" modified="2020-11-30T22:49:40Z" visited="2020-11-30T22:49:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-30T22:49:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/csgrads/kmitt006/Desktop/cs061/lab1/lab1_ex0.asm" added="2020-11-30T23:09:47Z" modified="2020-11-30T23:09:47Z" visited="2020-11-30T23:09:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-11-30T23:09:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

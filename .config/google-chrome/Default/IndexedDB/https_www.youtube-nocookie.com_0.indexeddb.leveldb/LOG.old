@@ -1,0 +1,8 @@
+2020/11/27-11:59:18.898 7b62 Reusing MANIFEST /home/csgrads/kmitt006/.config/google-chrome/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/27-11:59:18.898 7b62 Recovering log #26
+2020/11/27-11:59:18.898 7b62 Reusing old log /home/csgrads/kmitt006/.config/google-chrome/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/000026.log 
+2020/11/27-11:59:20.903 7b29 Level-0 table #30: started
+2020/11/27-11:59:20.903 7b29 Level-0 table #30: 0 bytes OK
+2020/11/27-11:59:20.904 7b29 Delete type=0 #26
+2020/11/27-11:59:20.905 7b29 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/27-11:59:20.905 7b29 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

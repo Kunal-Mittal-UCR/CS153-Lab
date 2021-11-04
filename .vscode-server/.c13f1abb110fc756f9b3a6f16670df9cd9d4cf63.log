@@ -1,0 +1,21 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 44734
+
+[16:49:33] Extension host agent started.
+[16:49:33] [127.0.0.1][9619c285][ManagementConnection] New connection established.
+[16:49:33] [127.0.0.1][eff5c680][ExtensionHostConnection] New connection established.
+[16:49:33] [127.0.0.1][eff5c680][ExtensionHostConnection] <7405> Launched Extension Host Process.
+[17:44:33] [127.0.0.1][9619c285][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:44:34] [127.0.0.1][eff5c680][ExtensionHostConnection] <7405> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[17:44:34] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[17:49:34] Last EH closed, shutting down

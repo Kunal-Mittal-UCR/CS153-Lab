@@ -1,0 +1,32 @@
+[CLIENT] 0xc00003
+  [CLIENT_LEADER] 0xc00001
+  [WINDOW_ROLE] Thunar-1602563986-3533003228
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab 3 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (3,272,640,480)
+  [GEOMETRY-MAXIMIZED] (3,272,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x2600006
+  [CLIENT_LEADER] 0x2600001
+  [RES_NAME] file-roller
+  [RES_CLASS] File-roller
+  [WM_NAME] lab3.zip 
+  [WM_COMMAND] (1) "file-roller"
+  [GEOMETRY] (591,31,610,536)
+  [GEOMETRY-MAXIMIZED] (591,31,610,536)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1c00007
+  [RES_NAME] google-chrome
+  [RES_CLASS] Google-chrome
+  [WM_NAME] Labs - Google Drive - Google Chrome
+  [GEOMETRY] (0,31,1440,724)
+  [GEOMETRY-MAXIMIZED] (0,31,800,520)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10380

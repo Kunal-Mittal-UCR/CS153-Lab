@@ -1,0 +1,112 @@
+Validating found git in: git
+Using git 1.8.3.1 from git
+> git rev-parse --git-dir
+Open repository: /home/csgrads/kmitt006
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/csgrads/kmitt006/CS153-Lab2/xv6/proc.c
+> git show --textconv :CS153-Lab2/xv6/proc.c
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main
+> git rev-list --left-right --count main...origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

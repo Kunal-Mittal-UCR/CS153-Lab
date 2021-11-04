@@ -1,0 +1,50 @@
+[2021-11-03 21:12:58.441] [exthost] [info] extension host started
+[2021-11-03 21:12:58.455] [exthost] [info] Lock '/home/csgrads/kmitt006/.vscode-server/data/User/workspaceStorage/9f09eef2b6861cec98ac4706f2842995/vscode.lock': Lock acquired.
+[2021-11-03 21:12:58.784] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-03 21:12:58.784] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/debug-auto-launch/dist/extension
+[2021-11-03 21:12:58.794] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-03 21:12:58.794] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/git/dist/main
+[2021-11-03 21:12:59.574] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-03 21:12:59.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/github/dist/extension.js
+[2021-11-03 21:12:59.861] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-03 21:12:59.862] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-03 21:12:59.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-03 21:12:59.903] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-03 21:12:59.909] [exthost] [info] eager extensions activated
+[2021-11-03 21:13:00.039] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-11-03 21:13:00.039] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/csgrads/kmitt006/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-03 21:13:13.498] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-03 21:13:13.498] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-03 21:13:13.498] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-03 21:13:13.498] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-03 21:13:13.498] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-03 21:13:13.498] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-03 21:13:13.498] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-03 21:13:13.498] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-03 21:13:54.930] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-11-03 21:13:54.931] [exthost] [info] Lock '/home/csgrads/kmitt006/.vscode-server/data/User/workspaceStorage/9f09eef2b6861cec98ac4706f2842995/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-11-03 21:13:55.947] [exthost] [info] exiting with code 0

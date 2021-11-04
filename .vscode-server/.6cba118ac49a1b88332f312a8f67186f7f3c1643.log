@@ -1,0 +1,33 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 32839
+
+[21:12:56] Extension host agent started.
+[21:12:56] [127.0.0.1][624276a0][ManagementConnection] New connection established.
+[21:12:56] [127.0.0.1][6dbba903][ExtensionHostConnection] New connection established.
+[21:12:56] [127.0.0.1][6dbba903][ExtensionHostConnection] <5998> Launched Extension Host Process.
+[21:13:54] [127.0.0.1][624276a0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:13:55] [127.0.0.1][6dbba903][ExtensionHostConnection] <5998> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[21:13:55] Last EH closed, waiting before shutting down
+[21:13:56] [127.0.0.1][f81283ca][ManagementConnection] New connection established.
+[21:13:56] [127.0.0.1][3d5b22c9][ExtensionHostConnection] New connection established.
+[21:13:56] [127.0.0.1][3d5b22c9][ExtensionHostConnection] <7973> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[21:18:55] New EH opened, aborting shutdown
+[21:20:57] [127.0.0.1][f81283ca][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:20:58] [127.0.0.1][3d5b22c9][ExtensionHostConnection] <7973> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[21:20:58] Last EH closed, waiting before shutting down
+[21:20:59] [127.0.0.1][c54ee5b0][ManagementConnection] New connection established.
+[21:20:59] [127.0.0.1][927e9048][ExtensionHostConnection] New connection established.
+[21:20:59] [127.0.0.1][927e9048][ExtensionHostConnection] <31727> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[21:25:58] New EH opened, aborting shutdown

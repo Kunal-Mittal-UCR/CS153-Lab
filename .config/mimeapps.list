@@ -1,0 +1,4 @@
+[Added Associations]
+text/plain=geany.desktop;org.gnome.gedit.desktop;
+application/pdf=evince.desktop;
+application/zip=org.gnome.FileRoller.desktop;

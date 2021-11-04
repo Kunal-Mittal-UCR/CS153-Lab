@@ -1,0 +1,58 @@
+[CLIENT] 0x2000002
+  [CLIENT_ID] 233275d9f-a5f4-4254-9fc6-584973966bce
+  [CLIENT_LEADER] 0x2000001
+  [WINDOW_ROLE] xfce4-terminal-1604701085--1864273652
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - kmitt006@sledge:~/Desktop/cs061/lab6
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (22,199,814,483)
+  [GEOMETRY-MAXIMIZED] (22,199,814,483)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1c00006
+  [CLIENT_LEADER] 0x1c00001
+  [RES_NAME] geany
+  [RES_CLASS] Geany
+  [WM_NAME] lab6_ex3.asm - /home/csgrads/kmitt006/Desktop/cs061/lab6 - Geany
+  [WM_COMMAND] (1) "geany"
+  [GEOMETRY] (0,60,1440,695)
+  [GEOMETRY-MAXIMIZED] (366,60,1026,695)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x2200006
+  [CLIENT_LEADER] 0x2200001
+  [RES_NAME] evince
+  [RES_CLASS] Evince
+  [WM_NAME] Programming assignment 3.pdf
+  [WM_COMMAND] (1) "evince"
+  [GEOMETRY] (0,31,1450,734)
+  [GEOMETRY-MAXIMIZED] (0,31,1450,734)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1e00006
+  [CLIENT_LEADER] 0x1e00001
+  [RES_NAME] evince
+  [RES_CLASS] Evince
+  [WM_NAME] lab6_specs.pdf
+  [WM_COMMAND] (1) "evince"
+  [GEOMETRY] (0,31,1450,734)
+  [GEOMETRY-MAXIMIZED] (0,31,1450,734)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x800003
+  [CLIENT_LEADER] 0x800001
+  [WINDOW_ROLE] Thunar-1604701059-2692773747
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab5 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (3,60,640,480)
+  [GEOMETRY-MAXIMIZED] (3,60,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

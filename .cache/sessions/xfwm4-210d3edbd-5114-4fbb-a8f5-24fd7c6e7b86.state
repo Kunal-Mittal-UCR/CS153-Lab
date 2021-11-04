@@ -1,0 +1,36 @@
+[CLIENT] 0xa00003
+  [CLIENT_LEADER] 0xa00001
+  [WINDOW_ROLE] Thunar-1602787390-2603029585
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab 3 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (3,60,640,480)
+  [GEOMETRY-MAXIMIZED] (3,60,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1c00006
+  [CLIENT_LEADER] 0x1c00001
+  [RES_NAME] evince
+  [RES_CLASS] Evince
+  [WM_NAME] Lab3_specs.pdf
+  [WM_COMMAND] (1) "evince"
+  [GEOMETRY] (0,31,1450,734)
+  [GEOMETRY-MAXIMIZED] (0,31,1450,734)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x2000002
+  [CLIENT_ID] 24278ae1b-3b4e-4dd9-bcc7-b792f0081778
+  [CLIENT_LEADER] 0x2000001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] LC-3 Basic Input/Output - Google Docs - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (3,101,1280,651)
+  [GEOMETRY-MAXIMIZED] (3,101,1280,651)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

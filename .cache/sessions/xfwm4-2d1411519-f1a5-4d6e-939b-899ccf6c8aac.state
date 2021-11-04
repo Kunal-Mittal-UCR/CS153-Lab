@@ -1,0 +1,31 @@
+[CLIENT] 0x2600006
+  [CLIENT_LEADER] 0x2600001
+  [RES_NAME] geany
+  [RES_CLASS] Geany
+  [WM_NAME] assignment3.asm - /home/csgrads/kmitt006/Desktop/cs061/lab5 - Geany
+  [WM_COMMAND] (1) "geany"
+  [GEOMETRY] (0,60,1440,695)
+  [GEOMETRY-MAXIMIZED] (0,60,1440,695)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x2800006
+  [CLIENT_LEADER] 0x2800001
+  [RES_NAME] evince
+  [RES_CLASS] Evince
+  [WM_NAME] Programming assignment 3.pdf
+  [WM_COMMAND] (1) "evince"
+  [GEOMETRY] (0,31,1450,734)
+  [GEOMETRY-MAXIMIZED] (610,31,610,656)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1c00007
+  [RES_NAME] google-chrome
+  [RES_CLASS] Google-chrome
+  [WM_NAME] Assignments - Google Drive - Google Chrome
+  [GEOMETRY] (0,31,1440,724)
+  [GEOMETRY-MAXIMIZED] (640,31,800,520)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10380

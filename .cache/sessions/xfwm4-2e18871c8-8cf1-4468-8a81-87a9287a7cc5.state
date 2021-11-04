@@ -1,0 +1,21 @@
+[CLIENT] 0xa00003
+  [CLIENT_LEADER] 0xa00001
+  [WINDOW_ROLE] Thunar-1602197022-576875772
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab1 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (3,60,640,480)
+  [GEOMETRY-MAXIMIZED] (3,60,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1c00005
+  [RES_NAME] google-chrome
+  [RES_CLASS] Google-chrome
+  [WM_NAME] Results for Programming Assignment 1 | Gradescope - Google Chrome
+  [GEOMETRY] (0,31,800,520)
+  [GEOMETRY-MAXIMIZED] (0,31,800,520)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10080

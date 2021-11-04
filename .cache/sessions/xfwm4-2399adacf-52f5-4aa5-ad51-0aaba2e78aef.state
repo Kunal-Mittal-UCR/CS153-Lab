@@ -1,0 +1,23 @@
+[CLIENT] 0x1c00006
+  [CLIENT_LEADER] 0x1c00001
+  [RES_NAME] geany
+  [RES_CLASS] Geany
+  [WM_NAME] assignment3.asm - /home/csgrads/kmitt006/Desktop/cs061/lab5 - Geany
+  [WM_COMMAND] (1) "geany"
+  [GEOMETRY] (485,79,871,673)
+  [GEOMETRY-MAXIMIZED] (485,79,871,673)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0
+[CLIENT] 0x600003
+  [CLIENT_LEADER] 0x600001
+  [WINDOW_ROLE] Thunar-1604164840-1735984672
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab5 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (3,60,640,480)
+  [GEOMETRY-MAXIMIZED] (3,60,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

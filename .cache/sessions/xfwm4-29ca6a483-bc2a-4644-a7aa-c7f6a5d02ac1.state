@@ -1,0 +1,20 @@
+[CLIENT] 0x1c00015
+  [RES_NAME] google-chrome
+  [RES_CLASS] Google-chrome
+  [WM_NAME] Labs - Google Drive - Google Chrome
+  [GEOMETRY] (0,31,1440,724)
+  [GEOMETRY-MAXIMIZED] (242,112,800,520)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x2600006
+  [CLIENT_LEADER] 0x2600001
+  [RES_NAME] evince
+  [RES_CLASS] Evince
+  [WM_NAME] lab7_specs.pdf
+  [WM_COMMAND] (1) "evince"
+  [GEOMETRY] (0,31,1450,734)
+  [GEOMETRY-MAXIMIZED] (646,31,610,656)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10080

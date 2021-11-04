@@ -1,0 +1,36 @@
+[CLIENT] 0x2000002
+  [CLIENT_ID] 204096504-8508-4145-9240-b7f2a3f2fa89
+  [CLIENT_LEADER] 0x2000001
+  [WINDOW_ROLE] xfce4-terminal-1605307385--1117177366
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - kmitt006@sledge:~/Desktop/cs061/lab7
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (623,269,814,483)
+  [GEOMETRY-MAXIMIZED] (623,269,814,483)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1c00006
+  [CLIENT_LEADER] 0x1c00001
+  [RES_NAME] geany
+  [RES_CLASS] Geany
+  [WM_NAME] lab7.asm - /home/csgrads/kmitt006/Desktop/cs061/lab7 - Geany
+  [WM_COMMAND] (1) "geany"
+  [GEOMETRY] (3,60,1440,695)
+  [GEOMETRY-MAXIMIZED] (3,60,1440,695)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0xa00003
+  [CLIENT_LEADER] 0xa00001
+  [WINDOW_ROLE] Thunar-1605303622-993538218
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab7 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (3,60,640,480)
+  [GEOMETRY-MAXIMIZED] (3,60,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

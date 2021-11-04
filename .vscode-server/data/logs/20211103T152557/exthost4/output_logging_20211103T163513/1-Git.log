@@ -1,0 +1,222 @@
+Validating found git in: git
+Using git 1.8.3.1 from git
+> git rev-parse --git-dir
+Open repository: /home/csgrads/kmitt006/xv6-public
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :proc.h
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/proc.h
+> git cat-file -s 164711417999c474cd8411496f93fbc1a94eea15
+> git show --textconv :lab2_test.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/lab2_test.c
+> git check-ignore -v -z --stdin
+> git show --textconv :proc.h
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/proc.h
+> git cat-file -s 164711417999c474cd8411496f93fbc1a94eea15
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :user.h
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/user.h
+> git cat-file -s 4f99c52ba6c2380d64453462fb276382351a9157
+> git check-ignore -v -z --stdin
+> git show --textconv :defs.h
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/defs.h
+> git cat-file -s 82fb982837a6a8d879fea2ff6869d94e951dae2a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :proc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/proc.c
+> git cat-file -s 806b1b184b4e8333eb29f418157c96651b1f724f
+> git check-ignore -v -z --stdin
+> git show --textconv :sysproc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/sysproc.c
+> git cat-file -s 0686d295b6929896b2d9055bfda82ed98a3fdf80
+> git check-ignore -v -z --stdin
+> git show --textconv :syscall.h
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/syscall.h
+> git cat-file -s bc5f35651c0e0e6d79e60a80b778962429832aeb
+> git show --textconv :usys.S
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/usys.S
+> git cat-file -s 8bfd8a1bc4ab9ebbee520f683a30b051f9af5a45
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :syscall.h
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/syscall.h
+> git cat-file -s bc5f35651c0e0e6d79e60a80b778962429832aeb
+> git check-ignore -v -z --stdin
+> git show --textconv :syscall.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/syscall.c
+> git cat-file -s ee8526160204d5a3917a28777af1ddb4f5a988c8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :sysproc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/sysproc.c
+> git cat-file -s 0686d295b6929896b2d9055bfda82ed98a3fdf80
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :proc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/proc.c
+> git cat-file -s 806b1b184b4e8333eb29f418157c96651b1f724f
+> git show --textconv :sysproc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/sysproc.c
+> git cat-file -s 0686d295b6929896b2d9055bfda82ed98a3fdf80
+> git show --textconv :proc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/proc.c
+> git cat-file -s 806b1b184b4e8333eb29f418157c96651b1f724f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :lab2_test.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/lab2_test.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :syscall.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/syscall.c
+> git cat-file -s ee8526160204d5a3917a28777af1ddb4f5a988c8
+> git check-ignore -v -z --stdin
+> git show --textconv :syscall.h
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/syscall.h
+> git cat-file -s bc5f35651c0e0e6d79e60a80b778962429832aeb
+> git show --textconv :syscall.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/syscall.c
+> git cat-file -s ee8526160204d5a3917a28777af1ddb4f5a988c8
+> git show --textconv :sysproc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/sysproc.c
+> git cat-file -s 0686d295b6929896b2d9055bfda82ed98a3fdf80
+> git show --textconv :syscall.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/syscall.c
+> git cat-file -s ee8526160204d5a3917a28777af1ddb4f5a988c8
+> git show --textconv :sysproc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/sysproc.c
+> git cat-file -s 0686d295b6929896b2d9055bfda82ed98a3fdf80
+> git show --textconv :syscall.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/syscall.c
+> git cat-file -s ee8526160204d5a3917a28777af1ddb4f5a988c8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :proc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/proc.c
+> git cat-file -s 806b1b184b4e8333eb29f418157c96651b1f724f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master
+> git rev-list --left-right --count master...origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/csgrads/kmitt006/xv6-public/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :sysproc.c
+> git ls-files --stage -- /home/csgrads/kmitt006/xv6-public/sysproc.c
+> git cat-file -s 0686d295b6929896b2d9055bfda82ed98a3fdf80

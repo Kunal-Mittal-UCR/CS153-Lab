@@ -1,0 +1,26 @@
+[CLIENT] 0x2200167
+  [CLIENT_ID] 2350b9855-8184-4253-ba0e-562e84ed0b79
+  [CLIENT_LEADER] 0x2200001
+  [WINDOW_ROLE] xfce4-terminal-1602885398--954538676
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - kmitt006@sledge:~/Desktop/cs061/lab 3
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (3,60,814,483)
+  [GEOMETRY-MAXIMIZED] (3,60,814,483)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x2200002
+  [CLIENT_ID] 2350b9855-8184-4253-ba0e-562e84ed0b79
+  [CLIENT_LEADER] 0x2200001
+  [WINDOW_ROLE] xfce4-terminal-1602883144--455098273
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - kmitt006@sledge:~/Desktop/cs061/lab 3
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (3,60,814,483)
+  [GEOMETRY-MAXIMIZED] (3,60,814,483)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10080

@@ -1,0 +1,57 @@
+[CLIENT] 0x2800006
+  [CLIENT_LEADER] 0x2800001
+  [RES_NAME] geany
+  [RES_CLASS] Geany
+  [WM_NAME] *lab3_ex1.asm - /home/csgrads/kmitt006/Desktop/cs061/lab 3 - Geany
+  [WM_COMMAND] (1) "geany"
+  [GEOMETRY] (296,82,900,617)
+  [GEOMETRY-MAXIMIZED] (296,82,900,617)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x2a00002
+  [CLIENT_ID] 24995de1a-7a45-4aa6-84f7-2a23b3c33dae
+  [CLIENT_LEADER] 0x2a00001
+  [WINDOW_ROLE] xfce4-terminal-1602784835--1367666236
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - kmitt006@sledge:~/Desktop/cs061/lab 3
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (623,269,814,483)
+  [GEOMETRY-MAXIMIZED] (623,269,814,483)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x30000f7
+  [CLIENT_LEADER] 0x3000001
+  [WINDOW_ROLE] gedit-window-1602786066-663139-0-sledge
+  [RES_NAME] gedit
+  [RES_CLASS] Gedit
+  [WM_NAME] lab2_ex3.asm (~/Desktop/cs061/lab2) - gedit
+  [WM_COMMAND] (1) "gedit"
+  [GEOMETRY] (0,31,910,756)
+  [GEOMETRY-MAXIMIZED] (0,31,910,756)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0xa00003
+  [CLIENT_LEADER] 0xa00001
+  [WINDOW_ROLE] Thunar-1602784770-4079600738
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] lab2 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (3,60,640,480)
+  [GEOMETRY-MAXIMIZED] (3,60,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1c00007
+  [RES_NAME] google-chrome
+  [RES_CLASS] Google-chrome
+  [WM_NAME] CS 061 | Class Profile | Piazza - Google Chrome
+  [GEOMETRY] (0,31,1440,724)
+  [GEOMETRY-MAXIMIZED] (0,31,800,520)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10380
