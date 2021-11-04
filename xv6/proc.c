@@ -112,6 +112,8 @@ found:
   memset(p->context, 0, sizeof *p->context);
   p->context->eip = (uint)forkret;
 
+  p->pVal = 10;
+  
   return p;
 }
 
@@ -215,6 +217,7 @@ fork(void)
   acquire(&ptable.lock);
 
   np->state = RUNNABLE;
+  np->pVal = 10;
 
   release(&ptable.lock);
 
@@ -225,7 +228,7 @@ fork(void)
 // An exited process remains in the zombie state
 // until its parent calls wait() to find out it exited.
 void
-exit(int status)
+exit(void)
 {
   struct proc *curproc = myproc();
   struct proc *p;
@@ -233,8 +236,6 @@ exit(int status)
 
   if(curproc == initproc)
     panic("init exiting");
-
-  curproc -> status = status;
 
   // Close all open files.
   for(fd = 0; fd < NOFILE; fd++){
@@ -272,7 +273,7 @@ exit(int status)
 // Wait for a child process to exit and return its pid.
 // Return -1 if this process has no children.
 int
-wait(int *status)
+wait(void)
 {
   struct proc *p;
   int havekids, pid;
@@ -297,10 +298,6 @@ wait(int *status)
         p->name[0] = 0;
         p->killed = 0;
         p->state = UNUSED;
-        if(status)
-          *status = p -> status;
-        else
-          *status = 0;
         release(&ptable.lock);
         return pid;
       }
@@ -311,61 +308,12 @@ wait(int *status)
       release(&ptable.lock);
       return -1;
     }
-    
-    // Wait for children to exit.  (See wakeup1 call in proc_exit.)
-    sleep(curproc, &ptable.lock);  //DOC: wait-sleep
-  }
-}
-int waitpid(int pid, int *status, int options){
-  struct proc *p;
-  int havekids, newpid;
-  struct proc *curproc = myproc();
-  
-  acquire(&ptable.lock);
-  for(;;){
-    // Scan through table looking for exited children.
-    havekids = 0;
-    for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-      if(p->pid != pid)
-        continue;
-      havekids = 1;
-      if(p->state == ZOMBIE){
-        // Found one.
-        if(status)
-          *status = p -> status;
-        else
-          *status = 0;
-        newpid = p->pid;
-        kfree(p->kstack);
-        p->kstack = 0;
-        freevm(p->pgdir);
-        p->pid = 0;
-        p->parent = 0;
-        p->name[0] = 0;
-        p->killed = 0;
-        p->state = UNUSED;
-        p->status = 0;
-        release(&ptable.lock);
-        return newpid;
-      }
-      else if(options == 1){
-        if(p->status < 0)
-          return -1;
-        release(&ptable.lock);
-        return p->status;
-      }
-    }
 
-    // No point waiting if we don't have any children.
-    if(!havekids || curproc->killed){
-      release(&ptable.lock);
-      return -1;
-    }
-    
     // Wait for children to exit.  (See wakeup1 call in proc_exit.)
     sleep(curproc, &ptable.lock);  //DOC: wait-sleep
   }
 }
+
 //PAGEBREAK: 42
 // Per-CPU process scheduler.
 // Each CPU calls scheduler() after setting itself up.
@@ -380,14 +328,17 @@ scheduler(void)
   struct proc *p;
   struct cpu *c = mycpu();
   c->proc = 0;
-  
+  int minP = 31;
+  struct proc *minTemp = 0;
+
   for(;;){
     // Enable interrupts on this processor.
     sti();
 
     // Loop over process table looking for process to run.
+    minP = 31;
     acquire(&ptable.lock);
-    for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+    /*for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
       if(p->state != RUNNABLE)
         continue;
 
@@ -403,8 +354,32 @@ scheduler(void)
 
       // Process is done running for now.
       // It should have changed its p->state before coming back.
+      c->proc = 0;*/
+      
+      for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+        if(p->pVal < minP && p->state == RUNNABLE){
+          minP = p->pVal;
+          minTemp = p;
+        }
+      }
+      c->proc = minTemp;
+      switchuvm(minTemp);
+      minTemp->state = RUNNING;
+      if(minTemp->pVal < 30)
+          minTemp->pVal+=2;
+        
+      swtch(&(c->scheduler), minTemp->context);
+      switchkvm();
+      // Process is done running for now.
+      // It should have changed its p->state before coming back.
+      //cprintf("\n Process with pid %d has priority %d after waiting \n", minTemp->pid, minTemp->pVal);
       c->proc = 0;
-    }
+      for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+        if(p->state != RUNNABLE)
+          continue;
+        if(p->pVal > 0)
+            p->pVal--;
+      }
     release(&ptable.lock);
 
   }
@@ -586,4 +561,14 @@ procdump(void)
     }
     cprintf("\n");
   }
+}
+int set_prior(int prior_lvl){
+  acquire(&ptable.lock);
+  struct proc *x = myproc();
+  if(prior_lvl > -1 && prior_lvl < 32)
+    x->pVal = prior_lvl;
+  x->state = RUNNABLE;
+  sched();
+  release(&ptable.lock);
+  return prior_lvl;
 }
