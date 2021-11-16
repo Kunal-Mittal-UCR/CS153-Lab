@@ -366,7 +366,7 @@ scheduler(void)
       switchuvm(minTemp);
       minTemp->state = RUNNING;
       if(minTemp->pVal < 30)
-          minTemp->pVal+=2;
+        minTemp->pVal+=2;
         
       swtch(&(c->scheduler), minTemp->context);
       switchkvm();
