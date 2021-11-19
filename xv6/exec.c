@@ -64,9 +64,10 @@ exec(char *path, char **argv)
   // Make the first inaccessible.  Use the second as the user stack.
   sz = PGROUNDUP(sz);
   sp = KERNBASE - 1;
-  if((sz = allocuvm(pgdir, PGROUNDDOWN(sp), sp)) == 0)
+  if((allocuvm(pgdir, PGROUNDDOWN(sp), sp)) == 0)
     goto bad;
-  //clearpteu(pgdir, (char*)(sz - 2*PGSIZE));
+  curproc->numStackPages = 1;
+  clearpteu(pgdir, (char*)(sp - 2*PGSIZE));
   //sp = sz;
 
   // Push argument strings, prepare rest of stack in ustack.

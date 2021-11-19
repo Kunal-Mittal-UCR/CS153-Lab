@@ -77,7 +77,16 @@ trap(struct trapframe *tf)
             cpuid(), tf->cs, tf->eip);
     lapiceoi();
     break;
-
+  case T_PGFLT:;
+    uint pageLoc = rcr2();
+    struct proc *p = myproc();
+    if(allocuvm(p->pgdir, PGROUNDDOWN(pageLoc), pageLoc) == 0)
+	    exit();
+    else{
+      cprintf("Increased Stack Size\n");
+      p->numStackPages++;
+    }
+    break;
   //PAGEBREAK: 13
   default:
     if(myproc() == 0 || (tf->cs&3) == 0){

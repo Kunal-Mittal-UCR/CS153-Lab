@@ -319,6 +319,7 @@ copyuvm(pde_t *pgdir, uint sz)
   pte_t *pte;
   uint pa, i, flags;
   char *mem;
+  struct proc *curproc = myproc();
 
   if((d = setupkvm()) == 0)
     return 0;
@@ -337,11 +338,26 @@ copyuvm(pde_t *pgdir, uint sz)
       goto bad;
     }
   }
+  for(i = PGROUNDUP(KERNBASE - 1 - (curproc->numStackPages * PGSIZE)); i < (KERNBASE - 1); i += PGSIZE){
+    if((pte = walkpgdir(pgdir, (void *) i, 0)) == 0) 
+      panic("copyuvm: pte should exist(pt 2)");
+    if(!(*pte & PTE_P))
+      panic("copyuvm: page not present(pt 2)");
+    pa = PTE_ADDR(*pte);
+    flags = PTE_FLAGS(*pte); 
+    if((mem = kalloc()) == 0)
+      goto bad;
+    memmove(mem, (char*)P2V(pa), PGSIZE); 
+    if(mappages(d, (void*)i, PGSIZE, V2P(mem), flags) < 0) { 
+      kfree(mem); 
+      goto bad; 
+    } 
+  }
   return d;
-
 bad:
   freevm(d);
   return 0;
+  
 }
 
 //PAGEBREAK!
